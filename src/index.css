@@ -1,0 +1,42 @@
+/* Global Styles for MetaPhoto */
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  color: #1f2937;
+  background-color: #fafafa;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.subtitle {
+  font-weight: 400;
+}
+
+.input:focus,
+.button:focus {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
